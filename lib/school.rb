@@ -26,8 +26,3 @@ class School
   end
 end
 
-school = School.new("Test School")
-
-school.add_student("AC Slater", 10)
-school.add_student("Jeff Baird", 10)
-school.add_student("Blake Johnson", 10)

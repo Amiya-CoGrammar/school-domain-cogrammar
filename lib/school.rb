@@ -25,3 +25,7 @@ class School
       @roster[grade] = name.sort
   end
 end
+
+school = School.new("Test School")
+
+school.add_student("AC Slater", 10)
